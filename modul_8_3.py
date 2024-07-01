@@ -46,6 +46,8 @@ class Car:
         self.model = model
         self.__vin = vin
         self.__numbers = numbers
+        self.__is_valid_vin()
+        self.__is_valid_numbers()
 
 
     def __is_valid_vin(self):
